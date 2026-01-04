@@ -3,7 +3,7 @@ import React from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../images/LOGO1.png";
+import logo from "../../public/images/LOGO1.png";
 
 const Header = () => {
   const navigate = useNavigate();

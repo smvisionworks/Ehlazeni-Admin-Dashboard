@@ -30,7 +30,7 @@ const Login = () => {
     <div
       className="min-h-screen w-full flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('../src/images/login-bg.jpg')",
+        backgroundImage: "url('../../public/images/login-bg.jpg')",
       }}
     >
       {/* Dark overlay */}

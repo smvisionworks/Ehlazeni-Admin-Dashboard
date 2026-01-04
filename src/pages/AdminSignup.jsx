@@ -148,7 +148,7 @@ return (
   <div
     className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center p-6"
     style={{
-      backgroundImage: "url('../src/images/signup.jpg')", // <-- change to your background image
+      backgroundImage: "url('../../public/images/signup.jpg')", // <-- change to your background image
     }}
   >
     <div className="backdrop-blur-md bg-white/20 shadow-2xl rounded-2xl p-10 max-w-3xl w-full border border-white/30">
@@ -156,7 +156,7 @@ return (
       {/* Header */}
       <div className="text-center mb-8">
         <img
-          src="/src/images/LOGO1.png"
+          src="../../public/images/LOGO1.png"
           alt="School Logo"
           className="mx-auto h-20 w-20 drop-shadow-lg mb-4"
         />
